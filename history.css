@@ -14,7 +14,7 @@ body {
 }
 
 .hero {
-    background: url('/kupi/5.jpg') no-repeat center center/cover;
+    background: url('kupi/5.jpg') no-repeat center center/cover;
     height: 600px;
     position: relative;
     display: flex;
@@ -90,4 +90,5 @@ body {
     font-size: 1.2rem;
     color: white;
 }
+
 
