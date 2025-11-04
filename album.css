@@ -1,0 +1,35 @@
+h1, h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+}
+
+.past-teams {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team {
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.team img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.team img:hover {
+    transform: scale(1.01);
+}

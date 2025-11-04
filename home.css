@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a1733;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.hero.dark-hero {
+    background: url('/images/maleshlogo.png') no-repeat center center/cover;
+    padding: 10% 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hero.dark-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 23, 51, 0.7);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(10, 23, 51, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #cdd5e0;
+}
+
+.dark-section {
+    background-color: #12294d;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.dark-section h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.dark-section p {
+    color: #d0dbe8;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.darker-background {
+    background-color: #0a1733;
+    padding: 40px 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card.dark-card {
+    background-color: #12294d;
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.card.dark-card:hover {
+    transform: translateY(-5px);
+}
+
+.card.dark-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card.dark-card h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card.dark-card p {
+    color: #cdd5e0;
+    font-size: 16px;
+}
