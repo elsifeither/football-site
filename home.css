@@ -23,7 +23,7 @@ body {
 }
 
 .hero.dark-hero {
-    background: url('/images/maleshlogo.png') no-repeat center center/cover;
+    background: url('images/maleshlogo.png') no-repeat center center/cover;
     padding: 10% 20px;
     text-align: center;
     position: relative;
@@ -114,4 +114,5 @@ body {
 .card.dark-card p {
     color: #cdd5e0;
     font-size: 16px;
+
 }
